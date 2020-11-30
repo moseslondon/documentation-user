@@ -66,6 +66,16 @@ and paste it to *Client Secret* in Odoo.
 Sync with Outlook
 =================
 
+.. important::
+   On the *first* sync, Odoo *and* Outlook might send emails reminders of the scheduled events
+   in Odoo. Therefore, *before the first sync*, archive all past events in Odoo Calendar.
+
+      .. image:: media/archive_odoocalendar.png
+         :align: center
+         :alt: Archive events in Odoo Calendar
+
+   Or, remove yourself from future events.
+
 Go to the *Calendar* application and *Sync with Outlook*. You are asked to log in to
 your account, if you are not already, and to grant the required permissions.
 
